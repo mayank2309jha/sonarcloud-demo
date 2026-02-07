@@ -1,0 +1,19 @@
+.app-container {
+  display: grid;
+  place-items: center; 
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #ffffff;
+  padding-left: 25vw;
+}
+
+.component {
+  width: 50vw;
+  min-height: 20vh;
+  border: 2px solid #000000;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #000000;
+}

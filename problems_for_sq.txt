@@ -1,0 +1,47 @@
+BASIC PROBLEMS IN WEB DEV SOLVED BY SONARQUBE
+- Unused Variables
+- Unused Imports
+- Duplicate Code Blocks
+- HardCoded Strings Repeat everywhere
+- Unused route parameters
+- Console Logs left in production
+- Hardcoded Secret
+- Duplicate route logic
+
+INTERMEDIATE PROBLEMS WEB DEV SOLVED BY SONARQUBE
+- Missing Dependencies in useEffect
+- Complex Conditional Rendering
+- Direct DOM manipulation in React
+- Memory Leaks (event listeners)(Something which is not in use is still alive)
+- Not handling promise rejection
+- Overly Complex Component Logic
+- Missing input validation
+- Improper HTTP status codes
+- Async route without error handling
+
+ADVANCED PROBLEMS IN WEB DEV SOLVED BY SONARQUBE
+- Authorization logic mixed with business logic
+- High cyclomatic complexity in controllers
+
+ISSUES IN SOFTWARE DEVELOPMENT SOLVED BY SONARQUBE
+BASIC ISSUES
+- Forgetting await
+- Not handling empty API responses
+- Assuming backend always succeeds
+- Hardcoding API URLs
+- Environment variables missing
+
+INTERMEIDATE ISSUES
+- Race conditions (multiple requests)
+- Retry logic missing
+- Inconsistent error formats
+- Pagination bugs
+- Forgetting to close web socket
+- Multiple connections opened in web socket
+
+ADVANCED ISSUES
+- Tight coupling between frontend & backend
+- Business logic inside controllers/components
+- No separation of concerns
+- Idempotency bugs
+- Memory leaks from stale sockets
